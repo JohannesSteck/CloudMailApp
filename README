@@ -1,0 +1,7 @@
+CloudMailApp
+
+Used as Reference Application for Rain Toolkit Benchmarks (https://github.com/JohannesSteck/rain_Mailservice_Extension).
+
+To run the service you can execute MailApp_start_single_node.jar with MailApp.properties as parameter. You might need to add AWSCredentials file to the classpath and adapt the MailApp.properties to your needs.
+
+java -jar MailApp_start_single_node.jar MailApp.properties
